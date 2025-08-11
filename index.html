@@ -278,7 +278,7 @@
     setupButton(buttons.btn1, '✨ Phân Tích', () => `Với vai trò là một chuyên gia về PCCC am hiểu sâu sắc các Tiêu chuẩn Việt Nam (TCVN) và Quy chuẩn Việt Nam (QCVN) hiện hành, hãy phân tích sâu các rủi ro tiềm ẩn về cháy nổ và đề xuất các giải pháp giảm thiểu hiệu quả cho tình huống sau: "${inputs.input1.value.trim()}". Luôn ưu tiên viện dẫn các quy định cụ thể từ TCVN/QCVN có liên quan.`);
     setupButton(buttons.btn2, '✨ Lập Kế Hoạch', () => `Với vai trò là một chuyên gia về PCCC, dựa trên các yêu cầu của pháp luật và TCVN hiện hành, hãy xây dựng một kế hoạch diễn tập PCCC chi tiết cho cơ sở được mô tả sau: "${inputs.input2.value.trim()}".`);
     setupButton(buttons.btn3, '✨ Giải Thích', () => `Với vai trò là một chuyên gia về PCCC, hãy giải thích một cách đơn giản, dễ hiểu cho câu hỏi hoặc đoạn trích từ tiêu chuẩn PCCC sau: "${inputs.input3.value.trim()}". Hãy đối chiếu với các quy định liên quan khác trong hệ thống pháp luật PCCC của Việt Nam nếu có.`);
-    setupButton(buttons.btn4, '✨ Tư Vấn Ngay', () => `Với vai trò là một chuyên gia về PCCC am hiểu sâu sắc các Tiêu chuẩn Việt Nam (TCVN) và Quy chuẩn Việt Nam (QCVN) hiện hành, hãy đưa ra các giải pháp thiết kế PCCC tối ưu cho công trình được mô tả sau: "${inputs.input4.value.trim()}". Tư vấn phải dựa trên và tuân thủ chặt chẽ các quy định trong QCVN và các TCVN liên quan khác.`);
+    setupButton(buttons.btn4, '✨ Tư Vấn Ngay', () => `Với vai trò là một chuyên gia về PCCC am hiểu sâu sắc các Tiêu chuẩn Việt Nam (TCVN) và Quy chuẩn Việt Nam (QCVN) hiện hành, hãy đưa ra các giải pháp thiết kế PCCC tối ưu cho công trình được mô tả sau: "${inputs.input4.value.trim()}". Tư vấn phải dựa trên và tuân thủ chặt chẽ các quy định trong QCVN và các TCVN liên quan khác. Tham khảo các tiêu chuẩn quốc tế liên quan`);
 
     // --- Dynamic Suggestion Logic ---
     async function generateAndShowSuggestions(originalPrompt, originalAnswer) {
@@ -356,6 +356,7 @@
 
 </body>
 </html>
+
 
 
 
